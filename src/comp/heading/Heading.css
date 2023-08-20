@@ -1,0 +1,25 @@
+
+.heading{
+    
+    color: #0F0F0F;
+    font-family: Figtree;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+    letter-spacing: -0.96px;
+
+}
+.heading__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:991px) {
+    .heading{
+        font-size: 20px;
+    }
+    
+}
